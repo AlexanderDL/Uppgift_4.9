@@ -12,7 +12,7 @@ namespace Uppgift_4._9
             int antalO = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Hur många O-mönster per rad?");
-            int antalOMonster = int.Parse(Console.ReadLine());
+            int antalOMönster = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Hur många rader?");
             int rader = int.Parse(Console.ReadLine());
@@ -30,7 +30,7 @@ namespace Uppgift_4._9
             }
 
             string enRad = xGrupp;
-            for (int i = 0; i < antalOMonster; i++)
+            for (int i = 0; i < antalOMönster; i++)
             {
                 enRad += "-" + oGrupp + "-" + xGrupp;
             }
